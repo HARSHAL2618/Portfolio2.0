@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harshal Sonawane — ML Engineer & Python Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <canvas id="net-canvas"></canvas>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">&lt;Harshal.dev/&gt;</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="nav-link active" data-section="hero">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#certifications" class="nav-link" data-section="certifications">Certs</a></li>
+        <li><a href="#resume" class="nav-link" data-section="resume">Resume</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-dot"></span>// available for opportunities</p>
+        <h1 class="hero-name">Harshal Sonawane</h1>
+        <h2 class="hero-role">
+          <span id="typed-role"></span><span class="cursor">|</span>
+        </h2>
+        <p class="hero-desc">Aspiring ML Engineer and Python Developer with end-to-end ML pipeline experience.
+          Passionate about building intelligent systems — from deepfake detection to predictive analytics.</p>
+        <div class="hero-buttons">
+          <a href="assets/Harshal_Sonawane_.pdf" class="btn btn-primary" download>
+            <i class="fa-solid fa-download"></i> Download Resume
+          </a>
+          <a href="#projects" class="btn btn-outline">
+            <i class="fa-solid fa-diagram-project"></i> View Projects
+          </a>
+          <a href="#contact" class="btn btn-ghost">
+            <i class="fa-solid fa-paper-plane"></i> Contact Me
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/HARSHAL2618" aria-label="GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/harshal-sonawane-81127a309/" aria-label="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://mail.google.com/mail/?view=cm&to=harshalsonawane.hms@gmail.com" aria-label="Email" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-portrait">
+        <div class="portrait-ring">
+          <div class="portrait-ring-inner">
+            <img src="assets/Photo.png" alt="Harshal Sonawane" class="portrait-img">
+          </div>
+        </div>
+        <div class="portrait-tag tag-1"><i class="fa-solid fa-brain"></i> AI/ML</div>
+        <div class="portrait-tag tag-2"><i class="fa-brands fa-python"></i> Python</div>
+        <div class="portrait-tag tag-3"><i class="fa-solid fa-eye"></i> CV</div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">01 — Who I Am</p>
+      <h2 class="section-title">About Me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-card glass reveal">
+        <p class="about-text">I'm Harshal Sonawane, an MCA student at KK Wagh Institute of Engineering & Research,
+          Nashik, with a strong foundation in Machine Learning, Python development, and data-driven problem solving.
+          I've completed two AICTE-recognized internships and built production-ready projects spanning deepfake
+          detection, agricultural AI, and sports analytics. I'm currently gaining hands-on experience building
+          full-stack LMS and CRM applications with Frappe/ERPNext. I love turning raw data into meaningful insights and
+          deploying ML models that solve real-world problems.</p>
+      </div>
+      <div class="about-info-grid">
+        <div class="info-card glass reveal">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <span class="info-label">Location</span>
+            <span class="info-value">Nashik, Maharashtra</span>
+          </div>
+        </div>
+        <div class="info-card glass reveal">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <div>
+            <span class="info-label">Degree</span>
+            <span class="info-value">MCA (Pursuing)</span>
+          </div>
+        </div>
+        <div class="info-card glass reveal">
+          <i class="fa-solid fa-building-columns"></i>
+          <div>
+            <span class="info-label">College</span>
+            <span class="info-value">KK Wagh Institute of Engineering & Research</span>
+          </div>
+        </div>
+        <div class="info-card glass reveal">
+          <i class="fa-solid fa-calendar-check"></i>
+          <div>
+            <span class="info-label">Graduation Year</span>
+            <span class="info-value">2026 (Expected)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">02 — Toolkit</p>
+      <h2 class="section-title">Skills</h2>
+    </div>
+
+    <div class="skills-wrap">
+      <div class="skill-group reveal">
+        <h3 class="skill-group-title"><i class="fa-solid fa-code"></i> Programming Languages</h3>
+        <div class="skill-cards">
+          <div class="skill-card"><i class="fa-brands fa-python"></i><span>Python</span></div>
+          <div class="skill-card"><i class="fa-brands fa-java"></i><span>Java</span></div>
+          <div class="skill-card"><i class="fa-solid fa-code"></i><span>C++</span></div>
+          <div class="skill-card"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <h3 class="skill-group-title"><i class="fa-solid fa-display"></i> Frontend</h3>
+        <div class="skill-cards">
+          <div class="skill-card"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+          <div class="skill-card"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+          <div class="skill-card"><i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span></div>
+          <div class="skill-card"><i class="fa-solid fa-chart-bar"></i><span>Streamlit</span></div>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <h3 class="skill-group-title"><i class="fa-solid fa-server"></i> Backend & Frameworks</h3>
+        <div class="skill-cards">
+          <div class="skill-card"><i class="fa-solid fa-flask"></i><span>Flask</span></div>
+          <div class="skill-card"><i class="fa-solid fa-cubes"></i><span>Frappe / ERPNext</span></div>
+          <div class="skill-card"><i class="fa-solid fa-plug"></i><span>REST APIs</span></div>
+          <div class="skill-card"><i class="fa-solid fa-sitemap"></i><span>MVC Architecture</span></div>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <h3 class="skill-group-title"><i class="fa-solid fa-brain"></i> AI / ML</h3>
+        <div class="skill-cards">
+          <div class="skill-card"><i class="fa-solid fa-chart-line"></i><span>Scikit-Learn</span></div>
+          <div class="skill-card"><i class="fa-solid fa-tree"></i><span>XGBoost</span></div>
+          <div class="skill-card"><i class="fa-solid fa-tree"></i><span>Random Forest</span></div>
+          <div class="skill-card"><i class="fa-solid fa-network-wired"></i><span>CNN / Deep Learning</span></div>
+          <div class="skill-card"><i class="fa-solid fa-square-root-variable"></i><span>NumPy</span></div>
+          <div class="skill-card"><i class="fa-solid fa-table"></i><span>Pandas</span></div>
+          <div class="skill-card"><i class="fa-solid fa-eye"></i><span>OpenCV</span></div>
+          <div class="skill-card"><i class="fa-solid fa-microscope"></i><span>EDA</span></div>
+          <div class="skill-card"><i class="fa-solid fa-sliders"></i><span>Feature Engineering</span></div>
+          <div class="skill-card"><i class="fa-solid fa-camera"></i><span>Computer Vision</span></div>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <h3 class="skill-group-title"><i class="fa-solid fa-wrench"></i> Tools & Databases</h3>
+        <div class="skill-cards">
+          <div class="skill-card"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+          <div class="skill-card"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+          <div class="skill-card"><i class="fa-solid fa-code"></i><span>VS Code</span></div>
+          <div class="skill-card"><i class="fa-solid fa-book"></i><span>Jupyter Notebook</span></div>
+          <!-- <div class="skill-card"><i class="fa-solid fa-database"></i><span>MySQL</span></div>
+          <div class="skill-card"><i class="fa-solid fa-database"></i><span>SQLite</span></div> -->
+          <div class="skill-card"><i class="fa-solid fa-cloud"></i><span>Google Colab</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">03 — Journey</p>
+      <h2 class="section-title">Experience</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card glass">
+          <span class="timeline-duration">Jan 2026 – Present (Ongoing)(June 26) · On-site</span>
+          <h3 class="timeline-role">Junior Python Developer Intern</h3>
+          <h4 class="timeline-company">The Inventors, Nashik</h4>
+          <p class="timeline-desc">Engineered full-stack LMS & CRM applications using Python and Frappe/ERPNext,
+            implementing custom modules, REST APIs, and workflows following MVC architecture. Optimized backend logic
+            across 3+ modules, improving data consistency and reducing manual workflow steps.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card glass">
+          <span class="timeline-duration">Jan – Feb 2025 · 4 Weeks · Virtual</span>
+          <h3 class="timeline-role">AI & Data Analytics Intern</h3>
+          <h4 class="timeline-company">Edunet Foundation (AICTE)</h4>
+          <p class="timeline-desc">Built a Crop & Fertilizer Recommendation System using Random Forest (~88% accuracy on
+            a 2,200-row dataset) and deployed a real-time Streamlit dashboard with a full EDA pipeline.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card glass">
+          <span class="timeline-duration">Mar – May 2025 · 6 Weeks · Virtual</span>
+          <h3 class="timeline-role">Front-End Development Intern</h3>
+          <h4 class="timeline-company">Heal Bharat Co.</h4>
+          <p class="timeline-desc">Developed 3 production-ready projects including a Resume, Themed Website, and
+            Portfolio using HTML5 & CSS3, responsive across 5+ screen sizes.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card glass">
+          <span class="timeline-duration">Aug – Sep 2025 · 4 Weeks · Virtual</span>
+          <h3 class="timeline-role">Front-End Web Development Intern</h3>
+          <h4 class="timeline-company">Edunet Foundation (AICTE)</h4>
+          <p class="timeline-desc">Designed and developed a personal portfolio website using HTML, CSS, and JavaScript
+            in collaboration with AICTE.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">04 — Built Things</p>
+      <h2 class="section-title">Projects</h2>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- PROJECT 1: MediaXray -->
+      <div class="project-card reveal">
+        <div class="card-inner">
+          <div class="card-front glass">
+            <div class="project-img">
+              <img src="assets/MediaXray.png" alt="MediaXray">
+            </div>
+            <div class="project-body">
+              <h3>MediaXray — Synthetic Media Detector</h3>
+              <div class="project-tags">
+                <span>CNN</span><span>Deep Learning</span><span>OpenCV</span><span>Scikit-Learn</span><span>Streamlit</span>
+              </div>
+              <div class="project-links">
+                <a href="https://mediaxray2-0.onrender.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                <a href="https://github.com/HARSHAL2618/MediaXray.git" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="#" class="details-btn"><i class="fa-solid fa-circle-info"></i> Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-back">
+            <h3>MediaXray — Synthetic Media Detector</h3>
+            <p>An end-to-end deepfake detection system built as MCA Final Year Project. Achieved 94.08% accuracy on benchmark deepfake datasets using CNN with transfer learning. Built with Python, OpenCV, Scikit-learn and deployed via Streamlit for real-time image/video authenticity prediction with confidence scores.</p>
+            <div class="project-tags">
+              <span>CNN</span><span>Deep Learning</span><span>OpenCV</span><span>Scikit-Learn</span><span>Streamlit</span>
+            </div>
+            <button class="btn btn-outline flip-back">← Back</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 2: T20 Predictor -->
+      <div class="project-card reveal">
+        <div class="card-inner">
+          <div class="card-front glass">
+            <div class="project-img">
+              <img src="assets/cricket.png" alt="T20 Cricket Score Predictor">
+            </div>
+            <div class="project-body">
+              <h3>Predictive Analytics System for T20 Cricket Scoring</h3>
+              <div class="project-tags">
+                <span>XGBoost</span><span>Streamlit</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span>
+              </div>
+              <div class="project-links">
+                <a href="https://t-20-cricket-score-predictor-system.onrender.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                <a href="https://github.com/HARSHAL2618/T-20_Cricket_Score_predictor_System.git" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="#" class="details-btn"><i class="fa-solid fa-circle-info"></i> Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-back">
+            <h3>T20 Cricket Score Predictor</h3>
+            <p>A live cricket score prediction system trained on 10,000+ match records achieving ~91% R² score. Powered by XGBoost with venue, team, over & wicket features engineered from historical data. Deployed as an interactive Streamlit dashboard with Pandas, NumPy, Matplotlib and Seaborn for visual analytics.</p>
+            <div class="project-tags">
+              <span>XGBoost</span><span>Streamlit</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span>
+            </div>
+            <button class="btn btn-outline flip-back">← Back</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 3: Agriculture -->
+      <div class="project-card reveal">
+        <div class="card-inner">
+          <div class="card-front glass">
+            <div class="project-img">
+              <img src="assets/agriculture.png" alt="Smart Agriculture Recommendation System">
+            </div>
+            <div class="project-body">
+              <h3>Smart Agriculture Recommendation System</h3>
+              <div class="project-tags">
+                <span>Random Forest</span><span>Scikit-Learn</span><span>Streamlit</span><span>Pandas</span><span>Seaborn</span>
+              </div>
+              <div class="project-links">
+                <a href="https://crop-fertilizerapp.onrender.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                <a href="https://github.com/HARSHAL2618/Crop_FertilizerApp.git" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="#" class="details-btn"><i class="fa-solid fa-circle-info"></i> Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-back">
+            <h3>Smart Agriculture Recommendation System</h3>
+            <p>An AI-powered crop and fertilizer recommendation tool for farmers. Multi-class Random Forest classifier achieving ~88% accuracy on a 2,200-record dataset using 7 soil & climate features. Built with Scikit-learn, Pandas, Seaborn and deployed via Streamlit with full EDA and feature importance analysis.</p>
+            <div class="project-tags">
+              <span>Random Forest</span><span>Scikit-Learn</span><span>Streamlit</span><span>Pandas</span><span>Seaborn</span>
+            </div>
+            <button class="btn btn-outline flip-back">← Back</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">05 — Verified</p>
+      <h2 class="section-title">Certifications</h2>
+    </div>
+    <div class="cert-grid">
+      <div class="cert-card glass reveal"><i class="fa-solid fa-certificate"></i>
+        <p>Machine Learning & AI Analyst — Symbiosis Institute (Jun 2024)<br><small>Supervised-unsupervised Learning, Model Evaluation, Feature Engineering</small></p>
+      </div>
+      <div class="cert-card glass reveal"><i class="fa-solid fa-certificate"></i>
+        <p>Python Programming — MKCL KLIC Course (2023) <br><small>Core Python, OOP, File I/O, Decorators, Generators, List Comprehensions</small></p>
+      </div>
+      <div class="cert-card glass reveal"><i class="fa-solid fa-certificate"></i>
+        <p>C++ Programming — MKCL KLIC Course (2023) <br><small>Object-Oriented Programming, Data Structures, File Handling</small> </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">07 — Full Details</p>
+      <h2 class="section-title">Resume</h2>
+    </div>
+    <div class="resume-card glass reveal">
+      <div class="resume-preview">
+        <i class="fa-solid fa-file-pdf"></i>
+        <p>Resume preview goes here</p>
+      </div>
+      <a href="assets/Harshal_Sonawane_.pdf" class="btn btn-primary" download>
+        <i class="fa-solid fa-download"></i> Download Resume
+      </a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">08 — Let's Talk</p>
+      <h2 class="section-title">Contact</h2>
+    </div>
+
+    <div class="contact-grid">
+      <form class="contact-form glass reveal" id="contactForm">
+        <div class="form-group">
+          <input type="text" id="name" required>
+          <label for="name">Name</label>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" required>
+          <label for="email">Email</label>
+        </div>
+        <div class="form-group">
+          <textarea id="message" rows="5" required></textarea>
+          <label for="message">Message</label>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">
+          <i class="fa-solid fa-paper-plane"></i> Send Message
+        </button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+
+      <div class="contact-info reveal">
+        <a href="https://github.com/HARSHAL2618" class="contact-link glass" target="_blank">
+          <i class="fa-brands fa-github"></i>
+          <div><span class="info-label">GitHub</span><span class="info-value">github.com/HARSHAL2618</span></div>
+        </a>
+        <a href="https://www.linkedin.com/in/harshal-sonawane-81127a309/" class="contact-link glass" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+          <div><span class="info-label">LinkedIn</span><span class="info-value">linkedin.com/in/harshal-sonawane</span></div>
+        </a>
+        <a href="https://mail.google.com/mail/?view=cm&to=harshalsonawane.hms@gmail.com" class="contact-link glass" target="_blank">
+          <i class="fa-solid fa-envelope"></i>
+          <div><span class="info-label">Email</span><span class="info-value">harshalsonawane.hms@gmail.com</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Harshal Sonawane</p>
+    <p class="footer-sub">Built with HTML, CSS and JavaScript.</p>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
